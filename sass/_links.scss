@@ -1,0 +1,18 @@
+.relsyn ul {
+  display: inline-block;
+	list-style: none;
+	text-align: top;
+  li {
+    display: inline-block;
+	  padding-right: 5px;
+    a {
+	    text-decoration: none;
+    }
+    a:hover {
+      padding: 5px;
+	    text-decoration: none;
+      cursor: pointer;
+	  }
+  }
+}  
+
