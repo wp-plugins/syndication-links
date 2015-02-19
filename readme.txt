@@ -1,4 +1,4 @@
-=== Syndication Links ==
+=== Syndication Links ===
 Contributors: dshanske
 Tags: syndication, indieweb, indiewebcamp, POSSE
 Requires at least: 4.1
