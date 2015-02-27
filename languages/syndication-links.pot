@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Syndication Links package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Syndication Links 0.5.0\n"
+"Project-Id-Version: Syndication Links 0.6.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/syndication-links\n"
-"POT-Creation-Date: 2015-02-19 06:26:00+00:00\n"
+"POT-Creation-Date: 2015-02-27 14:58:45+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,21 +52,6 @@ msgstr ""
 #: build/trunk/build/trunk/syn-postmeta.php:36 build/trunk/syn-postmeta.php:36
 #: syn-postmeta.php:36
 msgid "One URL per line."
-msgstr ""
-
-#: build/trunk/node_modules/grunt-wp-i18n/test/fixtures/basic-theme/exclude/file.php:3
-#: build/trunk/node_modules/grunt-wp-i18n/test/fixtures/plugin-include/plugin-include.php:6
-msgid "Exclude"
-msgstr ""
-
-#: build/trunk/node_modules/grunt-wp-i18n/test/fixtures/plugin-include/include/file.php:2
-msgid "Include"
-msgstr ""
-
-#: build/trunk/node_modules/grunt-wp-i18n/test/fixtures/text-domains/add-domain.php:2
-#: build/trunk/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php:2
-#: build/trunk/node_modules/grunt-wp-i18n/test/fixtures/text-domains/update-domains.php:3
-msgid "String"
 msgstr ""
 
 #. Author URI of the plugin/theme
