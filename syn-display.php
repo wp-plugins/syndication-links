@@ -32,7 +32,13 @@ function get_syndication_links() {
       else {
         $name = $domain;
       }
-      $synlinks .=  '<li><a title="' . $name . '" class="u-syndication" href="' . esc_url($url) . '" rel="syndication">'; 
+      $synlinks .=  '<li><a title="' . $name . '" class="u-syndication" href="' . esc_url($url) . '"';
+      if (is_single() ) {
+        $synlinks .= ' rel="syndication">'; 
+      }
+      else {
+        $synlinks .= '>';
+      }
       if ($options['just_icons'] == "1") {
         $synlinks .= $name;
       }
@@ -52,7 +58,7 @@ function syndication_links_after($meta = "" ) {
    }
 
 $option = get_option('syndication_content_options');
-if($option['the_content']=="0"){
+if($option['the_content']!="1"){
          add_filter( 'the_content', 'syndication_links_after', 20 );
    }
 
