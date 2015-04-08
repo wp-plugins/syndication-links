@@ -3,7 +3,7 @@ Contributors: dshanske
 Tags: syndication, indieweb, indiewebcamp, POSSE
 Requires at least: 4.1
 Tested up to: 4.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 Simple way to link to copies of your post or presence elsewhere.
@@ -41,6 +41,8 @@ design.
 
 == Changelog ==
 
+Version 1.0.2 - Refinements - add support for pages and a filter to add
+additional content types
 Version 1.0.0 - Refinements - Addition of h-card widget. Improvements to hooks, addition of automatic information from SNAP and Social(courtesy WordPress Syndication). Now supports second font choice and choice of color or black.
 Version 0.6.0 - Add hooks and functions to allow additional urls to 
 be added
@@ -69,6 +71,6 @@ for potential use with any other plugin.
   (Credit to Ryan Barrett for the initial code)
 * [Social](https://wordpress.org/plugins/social/) - Supports Twitter URL import
 * [Social Networks Autoposter](https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/) - Supports Twitter, Facebook, and Tumblr
-* [Tumblr Crossposter](https://wordpress.org/plugins/tumblr-crosspost) - Supports Syndication Links since version 0.8.1
-* [WordPress Crossposter](https://wordpress.org/plugins/wp-crossport) - Supports Syndication Links since version 0.3.2
-* [Diaposter](https://wordpress.org/plugins/diasposter) - Supports Syndication Links since version 0.1.8
+* [Tumblr Crosspostr](https://wordpress.org/plugins/tumblr-crosspostr) - Supports Syndication Links since version 0.8.1
+* [WordPress Crossposter](https://wordpress.org/plugins/wp-crosspost) - Supports Syndication Links since version 0.3.2
+* [Diaposter](https://wordpress.org/plugins/diasposter/) - Supports Syndication Links since version 0.1.8
