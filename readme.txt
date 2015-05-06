@@ -3,7 +3,7 @@ Contributors: dshanske
 Tags: syndication, indieweb, indiewebcamp, POSSE
 Requires at least: 4.1
 Tested up to: 4.1
-Stable tag: 1.0.2
+Stable tag: trunk
 License: GPLv2 or later
 
 Simple way to link to copies of your post or presence elsewhere.
