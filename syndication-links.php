@@ -3,10 +3,19 @@
  * Plugin Name: Syndication Links
  * Plugin URI: http://wordpress.org/plugins/syndication-links
  * Description: Add and display Syndication Links
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: David Shanske
  * Author URI: http://david.shanske.com
  */
+
+function syndication_links_activation() {
+  if (version_compare(phpversion(), 5.3, '<')) {
+    die("The minimum PHP version required for this plugin is 5.3");
+  }
+}
+
+register_activation_hook(__FILE__, 'syndication_links_activation');
+
 
 require_once( plugin_dir_path( __FILE__ ) . '/syn-postmeta.php');
 require_once( plugin_dir_path( __FILE__ ) . '/syn-display.php');

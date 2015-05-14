@@ -3,7 +3,7 @@ Contributors: dshanske
 Tags: syndication, indieweb, indiewebcamp, POSSE
 Requires at least: 4.1
 Tested up to: 4.1
-Stable tag: trunk
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 Simple way to link to copies of your post or presence elsewhere.
@@ -41,6 +41,7 @@ design.
 
 == Changelog ==
 
+Version 1.0.3 - Security Fix. Nothing new
 Version 1.0.2 - Refinements - add support for pages and a filter to add
 additional content types
 Version 1.0.0 - Refinements - Addition of h-card widget. Improvements to hooks, addition of automatic information from SNAP and Social(courtesy WordPress Syndication). Now supports second font choice and choice of color or black.
