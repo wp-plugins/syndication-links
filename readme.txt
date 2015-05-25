@@ -2,8 +2,8 @@
 Contributors: dshanske
 Tags: syndication, indieweb, indiewebcamp, POSSE
 Requires at least: 4.1
-Tested up to: 4.1
-Stable tag: 1.0.3
+Tested up to: 4.2
+Stable tag: 2.0.0
 License: GPLv2 or later
 
 Simple way to link to copies of your post or presence elsewhere.
@@ -17,13 +17,12 @@ a syndicated copy is.
 2. It adds CSS that will, if the class 'social-icon' is attached to a link in
 a list, it will display the appropriate one if available. This allows the setup to be extended very easily. You can use this with a WordPress menu to create some social icons.
 3. Offers two icon sets: [Genericons](http://genericons.com) or [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/)
-3. Adds an h-card/vcard widget for a specific site author. (Under Development)
+4. Adds an h-card/vcard widget for a specific site author. (Under Development)
+5. Allows rel-me links to be placed in the head of the home page or in a widget to support RelMeAuth/IndieAuth
 
 == Future Plans ==
 
 3. Style the h-card/vcard widget with better design and optional rel-me/social icons.
-4. Adds a widget for sitewide rel-me social icons
-
 
 == Installation == 
 
@@ -36,27 +35,45 @@ a list, it will display the appropriate one if available. This allows the setup 
 2. Justin Tadlock for the initial [Social Icons](http://justintadlock.com/archives/2013/08/14/social-nav-menus-part-2)
 design.
 3. Ryan Barrett for the initial version of the Bridgy code.
-4. Jihaise and Peter Molnar for the SNAP and Social Import, courtesy of [WordPress Syndication](https://github.com/jihaisse/wordpress-syndication)
+4. Jihaisse and Peter Molnar for the SNAP and Social Import, courtesy of [WordPress Syndication](https://github.com/jihaisse/wordpress-syndication)
 
 
 == Changelog ==
 
-Version 1.0.3 - Security Fix. Nothing new
-Version 1.0.2 - Refinements - add support for pages and a filter to add
-additional content types
-Version 1.0.0 - Refinements - Addition of h-card widget. Improvements to hooks, addition of automatic information from SNAP and Social(courtesy WordPress Syndication). Now supports second font choice and choice of color or black.
-Version 0.6.0 - Add hooks and functions to allow additional urls to 
-be added
-Version 0.5.0 - Clean up the plugin for initial release to WordPress repository.
-Version 0.5 - Moved to simplified data structure. Hidden migration function
-Version 0.4 - Rewriting using Grunt/SASS for more flexibility
+=Version 2.0.0= 
+	* Rewritten to remove global scoping
+	* Option to add URLs to the head of the home page for rel-me auth
+	* Option to add URLs as a widget for rel-me auth
 
-Version 0.3 - Customizable Networks finished. Changed social icons CSS to automatically add only if the class for the list has social-icon in it.
-
-Version 0.2 - Settings Screen rewritten using WordPress Settings API. Going to rewrite with customizable networks and thus option to disable sites you do not syndicate to. Added social icons CSS to automatically add icons to anything in a <LI>
-
-Version 0.1 - Forked from the Semantic Comments plugin. Start of configurable
-options.
+=Version 1.0.3= 
+	* Security Fix. Nothing new
+=Version 1.0.2=
+	* Refinements
+	* Add support for pages and a filter to add additional content types
+=Version 1.0.0=
+	* Refinements
+	* Addition of h-card widget. 
+	* Improvements to hooks
+	* Addition of automatic information from SNAP and Social(courtesy WordPress Syndication). 
+	* Now supports second font choice and choice of color or black.
+=Version 0.6.0= 
+	* Add hooks and functions to allow additional urls to  be added
+=Version 0.5.0=
+	* Clean up the plugin for initial release to WordPress repository.
+=Version 0.5= 
+	* Moved to simplified data structure. 
+	* Hidden migration function
+=Version 0.4=
+	* Rewriting using Grunt/SASS for more flexibility
+=Version 0.3=
+	* Customizable Networks finished. 
+	* Changed social icons CSS to automatically add only if the class for the list has social-icon in it.
+= Version 0.2= 
+	* Settings Screen rewritten using WordPress Settings API. 
+	* Going to rewrite with customizable networks and thus option to disable sites you do not syndicate to. 
+	* Added social icons CSS to automatically add icons to anything in a <LI>
+=Version 0.1=
+	* Forked from the Semantic Comments plugin. Start of configurable options.
 
 = Supported POSSE plugins and implementations =
 
