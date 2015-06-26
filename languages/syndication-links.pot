@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Syndication Links package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Syndication Links 2.0.1\n"
+"Project-Id-Version: Syndication Links 2.0.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/syndication-links\n"
-"POT-Creation-Date: 2015-06-26 19:57:29+00:00\n"
+"POT-Creation-Date: 2015-06-26 20:09:54+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -109,52 +109,52 @@ msgstr ""
 msgid "http://david.shanske.com"
 msgstr ""
 
-#: build/trunk/syndication-links.php:32 syndication-links.php:32
+#: build/trunk/syndication-links.php:32 syndication-links.php:34
 msgctxt "Syn Links"
 msgid "Twitter"
 msgstr ""
 
-#: build/trunk/syndication-links.php:33 syndication-links.php:33
+#: build/trunk/syndication-links.php:33 syndication-links.php:35
 msgctxt "Syn Links"
 msgid "Facebook"
 msgstr ""
 
-#: build/trunk/syndication-links.php:34 syndication-links.php:34
+#: build/trunk/syndication-links.php:34 syndication-links.php:36
 msgctxt "Syn Links"
 msgid "Google+"
 msgstr ""
 
-#: build/trunk/syndication-links.php:35 syndication-links.php:35
+#: build/trunk/syndication-links.php:35 syndication-links.php:37
 msgctxt "Syn Links"
 msgid "Instagram"
 msgstr ""
 
-#: build/trunk/syndication-links.php:36 syndication-links.php:36
+#: build/trunk/syndication-links.php:36 syndication-links.php:38
 msgctxt "Syn Links"
 msgid "Flickr"
 msgstr ""
 
-#: build/trunk/syndication-links.php:37 syndication-links.php:37
+#: build/trunk/syndication-links.php:37 syndication-links.php:39
 msgctxt "Syn Links"
 msgid "YouTube"
 msgstr ""
 
-#: build/trunk/syndication-links.php:38 syndication-links.php:38
+#: build/trunk/syndication-links.php:38 syndication-links.php:40
 msgctxt "Syn Links"
 msgid "LinkedIn"
 msgstr ""
 
-#: build/trunk/syndication-links.php:39 syndication-links.php:39
+#: build/trunk/syndication-links.php:39 syndication-links.php:41
 msgctxt "Syn Links"
 msgid "Tumblr"
 msgstr ""
 
-#: build/trunk/syndication-links.php:40 syndication-links.php:40
+#: build/trunk/syndication-links.php:40 syndication-links.php:42
 msgctxt "Syn Links"
 msgid "WordPress"
 msgstr ""
 
-#: build/trunk/syndication-links.php:41 syndication-links.php:41
+#: build/trunk/syndication-links.php:41 syndication-links.php:43
 msgctxt "Syn Links"
 msgid "IndieNews"
 msgstr ""
